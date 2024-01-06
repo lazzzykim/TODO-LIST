@@ -1,3 +1,8 @@
-package com.teamsparta.todolist.domain.TodoCard.dto
+package com.teamsparta.todolist.domain.Todo.dto
 
-data class CreateTodoCard()
+data class CreateTodoRequest(
+    val title: String,
+    val description: String,
+    val date: String,
+    val authorName: String
+)

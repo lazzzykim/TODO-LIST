@@ -1,8 +1,6 @@
-package com.teamsparta.todolist.domain.TodoCard.dto
+package com.teamsparta.todolist.domain.Todo.dto
 
-import org.springframework.context.annotation.Description
-
-data class TodoCardResponse(
+data class TodoResponse(
     val id: Long,
     val title: String,
     val description: String,
